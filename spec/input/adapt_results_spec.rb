@@ -10,6 +10,7 @@ feature 'Visit home page ' do
     url = current_url
     find(:xpath, '//*[@id="c24-content"]/div/app-comparison/app-calculator/div/div/div/div[1]/input').set(20000)
     expect(url).not_to eq(current_url)
+    expect(page).to have_css('.products')
   end
 
 end

@@ -1,18 +1,28 @@
 
 ######NOTE#######
-both happy and unhappy paths
 
-list available options from dropdown menu
-speed things up
+-both happy and unhappy paths
+
+-list available options from dropdown menu
+
 ######NOTE#######
 
 ######### OVERALL####
 check for  :
-#1 How much money - limits (minimum maximum)
-#2 How long - limits list the values
-#3 The reason for kredit - (list all the purpose)
-#4 Sorting - (ascending and descending)
-#5 Filtering - 
+  1 How much money: - test minimum
+                    - maixmum
+                    - default value
+                    - letters input
+
+  2 Duration - list possible options
+
+  3 The Purpose  - list possible options
+
+  4 Sorting - list possible options
+
+  5 Filtering - list possible options
+
+  6 Product - url should change after submit of different data
 
 
 

@@ -24,6 +24,8 @@ feature 'Visit Check24-Kredit Home Page ' do
       expect(page).to have_text('Sortieren')
     end
   end
-
+  scenario 'Verify offers are available' do
+    expect(page).to have_css('.products')
+  end
 
 end
